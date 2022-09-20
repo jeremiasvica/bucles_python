@@ -57,12 +57,13 @@ for t in temp_dataloger:
         temperatura_min = t
 temperatura_len += 1
 temperatura_sumatoria += t
-temperatura_promedio= temperatura_sumatoria/temperatura_len
+temperatura_promedio = temperatura_sumatoria/temperatura_len
 print(temp_dataloger)
-print('los datos son:\n'
-'temperatura maxima:', temperatura_max, '\n'
-'temperatura minima:', temperatura_min, '\n'
-"promedio:", temperatura_promedio, '\n')
+print(('los datos son:\n')
+      ('temperatura maxima:', temperatura_max, '\n')
+      ('temperatura minima:', temperatura_min, '\n')
+      ("promedio:", temperatura_promedio, '\n'))
+
 
 
 # Al finalizar el bucle compare si el valor que usted calculó para
@@ -108,4 +109,6 @@ if(temperatura_min >= 8) and (temperatura_max <= 14):
     print('estacion: invierno')
 if(temperatura_min >= 10) and (temperatura_max <= 24):
     print('estacion: primavera')
+
+
 
