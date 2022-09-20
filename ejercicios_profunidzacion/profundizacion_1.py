@@ -29,6 +29,20 @@ print('Comenzamos a ponernos serios!')
 
 # inicio = ....
 # fin = ....
+inicio = int(input('elegir primer numero a secuenciar\n'))
+fin = int(input('elegir ultimo numero\n'))
+lista = []
+sumatoria = 0
+for i in range(inicio, fin + 1, 1):
+    lista.append(i)
+print('\nla secuencia es:', lista)
+cantidad_numeros = len(lista)
+print('\nla longitud es:', cantidad_numeros)
+for i in lista:
+    sumatoria += i
+print('\nla suma de la lista es:', sumatoria)
+promedio = sumatoria / cantidad_numeros
+print('\nel promedio de la lista es:', promedio)
 
 # cantidad_numeros ....
 # sumatoria ....
